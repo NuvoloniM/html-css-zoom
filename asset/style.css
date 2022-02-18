@@ -54,6 +54,11 @@
   display: inline-block;
   border-radius: 5px;
   padding: 5px;
+}
+
+.view:hover,
+.cross:hover {
+  color: rgb(127, 255, 212);
   cursor: pointer;
 }
 
@@ -64,28 +69,77 @@
 /* Barra delle applicazioni */
 .app-bar {
   height: 100px;
-  background-color: red;
+  background-color: rgb(48, 47, 47);
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .menu-left {
   display: flex;
-  flex-basis: 20%;
+  flex-basis: 15%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.menu-left i {
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+  cursor: pointer;
+  height: 100%;
+}
+
+.icon i {
+  padding: 20px 30px;
+}
+
+.icon:hover {
+  color: rgb(127, 255, 212);
+  background-color: rgb(89, 87, 87);
+}
+
+.menu-mid {
+  display: flex;
+  flex-basis: 50%;
+  height: 100%;
   align-items: center;
   justify-content: space-between;
   color: #fff;
 }
 
-.audio-video {
+.menu-right {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-basis: 10%;
   align-items: center;
-  flex-grow: 2;
+  justify-content: center;
+  color: rgb(220, 31, 31);
+  background-color: rgb(89, 87, 87);
 }
 
-.audio-video i {
-  padding: 30px 40px;
+.close {
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+}
+
+.arrow {
+  height: 100%;
+  line-height: 100px;
+}
+
+.arrow:hover {
+  color: rgb(220, 31, 31);
+  background-color: black;
 }
