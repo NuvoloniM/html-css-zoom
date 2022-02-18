@@ -12,12 +12,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .user-container {
   flex-basis: 90%;
-  height: 90%;
-  background-color: white;
+  height: 85%;
+  /* background-color: white; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -39,6 +40,25 @@
   bottom: 0;
   left: 0;
   font-size: 0.8em;
+}
+
+.settings {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.settings div {
+  background-color: rgb(118, 115, 115);
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.cross {
+  margin-left: 5px;
 }
 
 /* Barra delle applicazioni */
