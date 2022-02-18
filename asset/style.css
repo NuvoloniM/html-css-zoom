@@ -16,7 +16,7 @@
 
 .user-container {
   flex-basis: 90%;
-  /* height: 90%; */
+  height: 90%;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
@@ -28,6 +28,17 @@
   width: 200px;
   height: 100px;
   background-image: url("https://picsum.photos/200/100");
+  position: relative;
+}
+
+.user-name {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 0.8em;
 }
 
 /* Barra delle applicazioni */
