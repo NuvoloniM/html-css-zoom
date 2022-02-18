@@ -7,7 +7,7 @@
 /* Hero */
 .hero {
   background-color: black;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 15vh);
   overflow-y: scroll;
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@
 
 /* Barra delle applicazioni */
 .app-bar {
-  height: 100px;
+  height: 15vh;
   background-color: rgb(48, 47, 47);
   display: flex;
   justify-content: space-between;
@@ -110,7 +110,6 @@
 .menu-mid {
   display: flex;
   flex-basis: 50%;
-  height: 100%;
   align-items: center;
   justify-content: space-between;
   color: #fff;
@@ -131,12 +130,9 @@
   cursor: pointer;
 }
 
-.close:hover {
-}
-
 .arrow {
   height: 100%;
-  line-height: 100px;
+  line-height: 15vh;
 }
 
 .arrow:hover {
